@@ -1,0 +1,15 @@
+# 编译输出
+target/
+
+# IDEA 配置
+.idea/
+*.iml
+
+# 数据库文件
+*.db
+
+# 日志
+*.log
+
+# 本地配置文件 (保留一份模板供他人参考)
+application-dev.properties
