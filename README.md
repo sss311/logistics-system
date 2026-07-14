@@ -1,6 +1,3 @@
-好的，我来帮你总结一份完整的 README，可以直接放到 GitHub 仓库首页。
-
----
 
 ## README.md
 
@@ -26,32 +23,32 @@
 
 ```
 src/main/java/com/logistics/
-├── LogisticsApplication.java          # Spring Boot 启动类
-├── config/                            # 配置类
-│   ├── DatabaseConfig.java            # 数据源配置
-│   └── DatabaseInitializer.java       # 数据库初始化
-├── controller/                        # 控制器层（9 个）
-│   ├── SystemController.java          # 系统接口（/system/*）
-│   ├── ParcelController.java          # 包裹接口（/parcels/*）
-│   ├── WaybillController.java         # 运单接口（/waybills/*）
-│   ├── StationController.java         # 网点接口（/stations/*）
-│   ├── CourierController.java         # 快递员接口（/couriers/*）
-│   ├── CustomerController.java        # 客户接口（/customers/*）
-│   ├── ClaimController.java           # 理赔接口（/claims/*）
-│   ├── CodRecordController.java       # COD 接口（/cod/*）
-│   └── EventController.java           # 事件流接口（/events）
-├── service/                           # 服务层接口（8 个）
-├── service/impl/                      # 服务层实现（8 个）
-├── mapper/                            # MyBatis Mapper（8 个）
-├── model/                             # 实体类（8 个）
-├── dto/                               # 请求 DTO（10 个）
-└── common/                            # 公共类
-    ├── GlobalExceptionHandler.java    # 全局异常处理
-    ├── BusinessException.java         # 自定义业务异常
-    ├── constant/                      # 状态枚举常量（11 个）
-    └── util/                          # 工具类
-        ├── AddressUtil.java           # 地址归一化
-        └── AmountUtil.java            # 金额整数分处理
+├── LogisticsApplication.java # Spring Boot 启动类
+├── config/ # 配置类
+│ ├── DatabaseConfig.java # 数据源配置
+│ └── DatabaseInitializer.java # 数据库初始化
+├── controller/ # 控制器层（9 个）
+│ ├── SystemController.java # 系统接口（/system/）
+│ ├── ParcelController.java # 包裹接口（/parcels/）
+│ ├── WaybillController.java # 运单接口（/waybills/）
+│ ├── StationController.java # 网点接口（/stations/）
+│ ├── CourierController.java # 快递员接口（/couriers/）
+│ ├── CustomerController.java # 客户接口（/customers/）
+│ ├── ClaimController.java # 理赔接口（/claims/）
+│ ├── CodRecordController.java # COD 接口（/cod/）
+│ └── EventController.java # 事件流接口（/events）
+├── service/ # 服务层接口（8 个）
+├── service/impl/ # 服务层实现（8 个）
+├── mapper/ # MyBatis Mapper（8 个）
+├── model/ # 实体类（8 个）
+├── dto/ # 请求 DTO（10 个）
+└── common/ # 公共类
+├── GlobalExceptionHandler.java # 全局异常处理
+├── BusinessException.java # 自定义业务异常
+├── constant/ # 状态枚举常量（11 个）
+└── util/ # 工具类
+├── AddressUtil.java # 地址归一化
+└── AmountUtil.java # 金额整数分处理
 ```
 
 ## 核心功能
